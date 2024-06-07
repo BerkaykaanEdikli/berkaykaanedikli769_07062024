@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215198749827",
+    "project_id": "berkaykaanedikli769-07062024",
+    "storage_bucket": "berkaykaanedikli769-07062024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215198749827:android:592b471483f24f9329b7b6",
+        "android_client_info": {
+          "package_name": "tr.com.berkaykaanedikli.berkaykaanedikli769_07062024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ_0i7Fve1tvy4gGKcvqTav4K3Wzsr1Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

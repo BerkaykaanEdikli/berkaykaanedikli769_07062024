@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#3ABEF9">
+
+    <EditText
+        android:id="@+id/editTextKitapAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kitap Adı"
+        android:background="@android:color/white"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextYazarAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yazar Adı"
+        android:background="@android:color/white"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextSayfaSayisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sayfa Sayısı"
+        android:background="@android:color/white"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextYayinevi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yayınevi"
+        android:background="@android:color/white"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonKitapEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitap Ekle"
+        android:padding="16dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewUyari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:onClick="onClickKaydet"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
